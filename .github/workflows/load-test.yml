@@ -1,5 +1,6 @@
 # .github/workflows/load-test.yml
-
+on:[push]
+jobs:
 k6_load_test:
   name: k6 Load Test
   runs-on: ubuntu-latest
